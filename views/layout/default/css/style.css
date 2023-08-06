@@ -1,9 +1,54 @@
-
-
+/*------Navbar--------------*/
 .navbar-expand-lg .navbar-nav{
     flex-direction: column;
     flex-grow: inherit;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-size: larger;
 }
+
+.nav-item{
+    margin: auto;
+}
+
+.nav-link{
+    position: relative;
+    
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    border: bottom 2px solid greenyellow; ;
+}
+
+.nav-link::after{
+    content: '';
+    opacity: 0;
+    transition: all 0.2s;
+    height: 2px;
+    width: 100%;
+    background-color: blanchedalmond;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.nav-link:hover::after{
+    opacity: 1;
+}
+
+.bi{
+    width: 1em; 
+    height: 1em; 
+    vertical-align: -0.125em; 
+    fill: currentColor;
+    list-style: none;
+}
+
+
+/*------------------------------------*/
+/*----------Body-----------------------*/
 
 .bd-masthead{
     margin-bottom: 1rem;
@@ -16,15 +61,25 @@ body{
     flex-direction: column;
     min-height: 100vh;
 }
+/*-----------------------------------*/
 
+/*----------------Footer-------------*/
 footer{
     margin-top: auto;
-    
+    padding: 3rem;
 }
-
 footer a{
     text-decoration: none;
     color: var(--bs-primary-rgb);
 }
+.mb-4 p{
+    text-align: start;
+    margin-top: 2em;
+    
+}
 
+.list-unstyled li{
+    margin-bottom: .5em;
+}
 
+/*-------------------------------*/

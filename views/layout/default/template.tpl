@@ -16,7 +16,7 @@
 
 </head>
 
-<body data-bs-theme="dark">
+<body>
 
   {include file="header.tpl"}
 
