@@ -40,7 +40,7 @@
                     <!--Grid column-->
                     <div class="col-auto">
                         <p class="pt-2">
-                            <strong>Sign up for our newsletter</strong>
+                            <strong>Registrate para novedades</strong>
                         </p>
                     </div>
                     <!--Grid column-->
@@ -50,7 +50,7 @@
                         <!-- Email input -->
                         <div class="form-outline form-white mb-4">
                             <input type="email" id="form5Example21" class="form-control" />
-                            <label class="form-label" for="form5Example21">Email address</label>
+                            <label class="form-label" for="form5Example21">Correo electronico</label>
                         </div>
                     </div>
                     <!--Grid column-->
@@ -59,7 +59,7 @@
                     <div class="col-auto">
                         <!-- Submit button -->
                         <button type="submit" class="btn btn-outline mb-4">
-                            Subscribe
+                            Subscribirse
                         </button>
                     </div>
                     <!--Grid column-->
