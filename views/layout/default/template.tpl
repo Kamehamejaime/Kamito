@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es" data-bs-theme="dark">
+<html lang="es">
 
 <head>
   <meta charset="utf-8">
@@ -16,7 +16,7 @@
 
 </head>
 
-<body>
+<body data-bs-theme="dark">
 
   {include file="header.tpl"}
 
@@ -25,10 +25,8 @@
     {include file=$_content}
   </main>
 
-  <footer>
+  {include file="footer.tpl"}
 
-    {include file="footer.tpl"}
-  </footer>
 
   {include file="link_js.tpl"}
 

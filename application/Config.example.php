@@ -3,7 +3,7 @@
 define('BASE_URL', 'http://localhost/kamito/');
 define('DEFAULT_CONTROLLER', 'index');
 define('DEFAULT_LAYOUT', 'default');
-define('APP_NAME', 'NAME_APP');
+define('APP_NAME', 'NAME_APP');/*CTRL para hash */
 
 define('SESSION_TIME', 10);
 define('HASH_KEY', '436f558c5734af40a92747a6b312e8ecc6ec3522c7d01565c9c191833b429182');
@@ -16,4 +16,4 @@ define('DB_PASS', 'password');
 define('DB_NAME', 'base');
 define('DB_CHAR', 'utf8');
 define('METHODENCRIPT','AES-256-ECB');
-define('KEY','APP_AXIOMAFRAME');
+define('KEY','APP_AXIOMAFRAME'); /*Hash_KEY */

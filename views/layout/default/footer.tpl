@@ -1,31 +1,31 @@
 <!-- Footer -->
-<footer class="footer text-center text-white bg-body-tertiary">
+<footer class="footer text-center bg-body-tertiary">
     <!-- Grid container -->
     <div class="container p-4">
         <!-- Section: Social media -->
         <section class="mb-4">
 
             <!-- Twitter -->
-            <a class="btn btn-outline-light btn-floating m-1" href="https://www.twitter.com/kamehamejaime"
-                target="_blank" role="button">
+            <a class="btn btn-outline btn-floating m-1" href="https://www.twitter.com/kamehamejaime" target="_blank"
+                role="button">
                 <i class="bi bi-twitter"></i></a>
 
             <!-- Google -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" target="_blank" role="button">
+            <a class="btn btn-outline btn-floating m-1" href="#!" target="_blank" role="button">
                 <i class="bi bi-google"></i></a>
 
             <!-- Instagram -->
-            <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/pvta.oh" target="_blank"
+            <a class="btn btn-outline btn-floating m-1" href="https://www.instagram.com/pvta.oh" target="_blank"
                 role="button">
                 <i class="bi bi-instagram"></i></a>
 
             <!-- Linkedin -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" target="_blank" role="button">
+            <a class="btn btn-outline btn-floating m-1" href="#!" target="_blank" role="button">
                 <i class="bi bi-linkedin"></i></a>
 
             <!-- Github -->
-            <a class="btn btn-outline-light btn-floating m-1" href="https://www.github.com/kamehamejaime"
-                target="_blank" role="button">
+            <a class="btn btn-outline btn-floating m-1" href="https://www.github.com/kamehamejaime" target="_blank"
+                role="button">
                 <i class="bi bi-github"></i></a>
 
         </section>
@@ -58,7 +58,7 @@
                     <!--Grid column-->
                     <div class="col-auto">
                         <!-- Submit button -->
-                        <button type="submit" class="btn btn-outline-light mb-4">
+                        <button type="submit" class="btn btn-outline mb-4">
                             Subscribe
                         </button>
                     </div>
@@ -80,7 +80,7 @@
         <!-- FIN Section: Text -->
 
         <!-- Section: Links -->
-        <section class="">
+        <section class="fLinks">
             <!--Grid row-->
             <div class="row">
                 <!--Grid column-->
@@ -89,37 +89,16 @@
 
                     <ul class="list-unstyled mb-0">
                         <li>
-                            <a href="#!" class="text-white">Link 1</a>
+                            <a href="#!">Link 1</a>
                         </li>
                         <li>
-                            <a href="#!" class="text-white">Link 2</a>
+                            <a href="#!">Link 2</a>
                         </li>
                         <li>
-                            <a href="#!" class="text-white">Link 3</a>
+                            <a href="#!">Link 3</a>
                         </li>
                         <li>
-                            <a href="#!" class="text-white">Link 4</a>
-                        </li>
-                    </ul>
-                </div>
-                <!--Grid column-->
-
-                <!--Grid column-->
-                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                    <h5 class="text-uppercase">Links</h5>
-
-                    <ul class="list-unstyled mb-0">
-                        <li>
-                            <a href="#!" class="text-white">Link 1</a>
-                        </li>
-                        <li>
-                            <a href="#!" class="text-white">Link 2</a>
-                        </li>
-                        <li>
-                            <a href="#!" class="text-white">Link 3</a>
-                        </li>
-                        <li>
-                            <a href="#!" class="text-white">Link 4</a>
+                            <a href="#!">Link 4</a>
                         </li>
                     </ul>
                 </div>
@@ -131,16 +110,16 @@
 
                     <ul class="list-unstyled mb-0">
                         <li>
-                            <a href="#!" class="text-white">Link 1</a>
+                            <a href="#!">Link 1</a>
                         </li>
                         <li>
-                            <a href="#!" class="text-white">Link 2</a>
+                            <a href="#!">Link 2</a>
                         </li>
                         <li>
-                            <a href="#!" class="text-white">Link 3</a>
+                            <a href="#!">Link 3</a>
                         </li>
                         <li>
-                            <a href="#!" class="text-white">Link 4</a>
+                            <a href="#!">Link 4</a>
                         </li>
                     </ul>
                 </div>
@@ -152,16 +131,37 @@
 
                     <ul class="list-unstyled mb-0">
                         <li>
-                            <a href="#!" class="text-white">Link 1</a>
+                            <a href="#!">Link 1</a>
                         </li>
                         <li>
-                            <a href="#!" class="text-white">Link 2</a>
+                            <a href="#!">Link 2</a>
                         </li>
                         <li>
-                            <a href="#!" class="text-white">Link 3</a>
+                            <a href="#!">Link 3</a>
                         </li>
                         <li>
-                            <a href="#!" class="text-white">Link 4</a>
+                            <a href="#!">Link 4</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0" style="">
+                    <h5 class="text-uppercase">Links</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" style="text-decoration: none;">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 4</a>
                         </li>
                     </ul>
                 </div>
@@ -176,7 +176,7 @@
     <!-- Copyright -->
     <div class="text-center p-3 bg-body-tertiary">
         © 2023 Copyright:
-        <a class="text-white" href="#!">Kamito.com</a>
+        <a href="#!" style="text-decoration: none;">Kamito.com</a>
     </div>
     <!-- FIN Copyright -->
 </footer>
