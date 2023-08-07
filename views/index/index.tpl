@@ -11,7 +11,7 @@
                 escritorio.</p>
             <p class="lead text-muted">Poco a poco iré publicando avances de la pagina para que prontamente se convierta
                 en un sitio donde se pueda encontrar bastantes recursos para aprender a programar desde cero</p>
-            <p class="lead text-muted"><strong>Kamito</strong>... aprendamos juntos.</p>
+            <p class="lead text-muted"><strong>Kamito</strong>... aprendamos juntos :3.</p>
         </div>
     </div>
 </div>
