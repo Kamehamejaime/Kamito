@@ -1,7 +1,7 @@
-<header class="navbar navbar-expand-lg navbar-dark bd-navbar sticky-top" style="background-color:#6436e4fb">
+<header class="navbar navbar-expand-lg bd-navbar" style="background-color:#ffffff00; padding: 1.2rem;">
     <nav class="container-xxl bd-gutter flex-wrap flex-lg-nowrap" aria-label="Main navigation">
         <div class="logo-container">
-            <a href="{$_layoutParams.root}"><img src="{$_layoutParams.route_img}logo.png" width="52px" height="52px">
+            <a href="{$_layoutParams.root}"><img src="{$_layoutParams.route_img}\logo\logoJ.png" width="52px" height="52px">
             </a>
         </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
@@ -10,7 +10,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <hr class="d-lg-none text-white-50">
-            <ul class="navbar-nav col align-items-center flex-wrap bd-navbar-nav">
+            <ul class="navbar-nav col align-items-center flex-wrap bd-navbar-nav" id="menu-nav">
                 <li class="nav-item ">
                     <a class="nav-link active" id="nav-link" aria-current="page" href="{$_layoutParams.root}">Inicio</a>
                 </li>
@@ -44,8 +44,8 @@
                         <li class="nav-item dropdown">
                             <button
                                 class="btn btn-link nav-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center"
-                                id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown"
-                                data-bs-display="static" aria-label="Toggle theme (auto)">
+                                id="bd-theme" style="color:#6e07f3" type="button" aria-expanded="false"
+                                data-bs-toggle="dropdown" data-bs-display="static" aria-label="Toggle theme (auto)">
                                 <svg class="bi my-1 theme-icon-active">
                                     <use href="#circle-half"></use>
                                 </svg>
