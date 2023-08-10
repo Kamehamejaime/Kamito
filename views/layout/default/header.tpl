@@ -1,12 +1,14 @@
-<header class="navbar navbar-expand-lg bd-navbar" style="background-color:#ffffff00; padding: 1.2rem;">
+<header class="navbar navbar-expand-lg bd-navbar" style="padding: 1.2rem;">
     <nav class="container-xxl bd-gutter flex-wrap flex-lg-nowrap" aria-label="Main navigation">
         <div class="logo-container">
-            <a href="{$_layoutParams.root}"><img src="{$_layoutParams.route_img}\logo\logoJ.png" width="52px" height="52px">
+            <a href="{$_layoutParams.root}"><img src="{$_layoutParams.route_img}\logo\logoJ.png" width="52px"
+                    height="52px">
             </a>
         </div>
-        <button class="navbar-toggler shadow-none btn btn-outline" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler shadow-none btn btn-outline" data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="bi bi-list"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <hr class="d-lg-none text-white-50">

@@ -4,7 +4,7 @@
             {include file="../partials/_messages.tpl"}
             <h1>Analista Programador de Software & Apps web</h1>
             <h2>Aquí va un slogan bonito</h2>
-            <img class="avatar" src="{$_layoutParams.route_img}\avatar\Avatar.svg" alt="avatar">
+            <img class="avatar" src="{$_layoutParams.route_img}\avatar\avatar.svg" alt="avatar">
 
 
         </div>
@@ -24,14 +24,12 @@
     </div>
 </section>
 
-<section class="section-skills text-center" style="margin-bottom: 6rem;">
+<section class="section-skills text-center">
     <div class="container-estrecho row">
         <div class="card" ">
             <div class=" card-body">
             <h2 class="card-title">Skills</h2>
-
-
-            <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                     <div class="card">
                         <img src="{$_layoutParams.route_img}\skills\python.svg" class="card-img-top" alt="python-logo"
@@ -126,9 +124,9 @@
 
 
 <section class="section estudios">
-<div class="containerS col-sm-9 mx-auto text-center">
-<h2 class="title">Estudios</h2>
-</div>
+    <div class="containerS col-sm-9 mx-auto text-center">
+        <h2 class="title">Estudios</h2>
+    </div>
 </section>
 
 
@@ -155,18 +153,18 @@
 
 
 <section class="section text-center"">
-    <div class="container row">
-        <div class="card" ">
+    <div class=" container row">
+    <div class="card" ">
             <div class=" card-body">
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-                <div class="col">
-                    <div class="card">
-                        <div class="card-body">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
                         <h1>HOLA</h1>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </section>
