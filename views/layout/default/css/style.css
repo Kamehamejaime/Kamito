@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Exo+2:wght@800&family=Kdam+Thmor+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Asap:wght@200;400&family=Bakbak+One&family=Exo+2:wght@200;800&family=Kdam+Thmor+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Asap:wght@200;400&family=Bakbak+One&family=Exo+2:wght@200;800&family=Kdam+Thmor+Pro&family=Montserrat&display=swap');
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap');
 
 *{
 /*font-family: 'Bakbak One', cursive;
@@ -11,16 +9,12 @@ font-family: 'Exo 2', sans-serif;
 font-family: 'Kdam Thmor Pro', sans-serif;
 font-family: 'Asap', sans-serif;
 font-family: 'Montserrat', sans-serif;
+font-family: 'Inter', sans-serif;
 */
-font-family: 'Montserrat', sans-serif;
-
+font-family: 'Inter', sans-serif;
+box-sizing: border-box;
 }
-    
-
-
-
 /*------Navbar--------------*/
-
 .navbar-expand-lg .navbar-nav{
     flex-direction: column;
     flex-grow: inherit;
@@ -28,16 +22,10 @@ font-family: 'Montserrat', sans-serif;
     align-content: center;
     align-items: center;
     font-size: larger;
-    
-
 }
 .nav-item{
     margin: auto;
 }
-
-
-
-
 /*Hover nav*/
 #menu-nav #nav-link{
     color: currentColor;
@@ -55,22 +43,16 @@ font-family: 'Montserrat', sans-serif;
     transform: scaleX(0);
     transform-origin: right;
     transition: transform 0.2s ease-in-out;
-
 }
 #menu-nav #nav-link:hover::before{
     transform: scaleX(1);
     transform-origin: left;
-
 }
-
 #menu-nav[data-animation="bonus"]#nav-link:hover::before {
     transform-origin: left;
     transform: scaleX(1);
     transition-timing-function: cubic-bezier(0.2, 1, 0.82, 0.94);
   }
-
-
-
 /*toogle theme icon*/
 .bi{
     width: 1em; 
@@ -104,19 +86,73 @@ body{
 
 }
 .avatar{
-    width: 210px;
+    width: 25%;
     height: auto;
     margin:2rem 0;
 }
-.foot-ind{
-    padding: 0 1.5rem;
+@media only screen and (min-width: 280px) and (max-width: 820px){
+    .avatar{
+        width: 40%;
+        height: auto;
+        margin:2rem 0;
+    }
+    #content h1{
+        font-weight: 800;
+        font-size: 2rem;
+        text-justify: distribute;
+    }
+    #content h2{
+    margin-bottom: 1.5rem;
+    font-size: 1rem!important;
 
 }
-.foot-ind .container{
+    
+}
+
+.columnas{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 5rem 0 10rem 0;
+    
+}
 
+.presentation{
+    background: #6e07f3;
+    padding-bottom: 1rem;
+    color: white; 
+    display: block;
+    padding:1rem ;
+    
+}
+.presentation h1{
+    font-size: 2rem;
+    font-weight: 700;
+    align-content: flex-start;
+}
+
+.presentation p{
+    font-weight: 500;
+    font-size: large;
+    
+}
+
+.section-skills{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: -8em;
+}
+
+.container-estrecho{
+    width: 96%;
+}
+
+body > main > section.section-skills.text-center > div > .card{
+    width: 100%; 
+    border-radius: 18px;
+    border: none;
+    
 }
 
 
@@ -138,16 +174,13 @@ footer a{
 .mb-4 p{
     text-align: center;
     margin-top: 2em;
-    margin-bottom: 4em;
-   
-    
-    
+    margin-bottom: 4em;   
 }
 
 .list-unstyled li{
     margin-bottom: .5em;
 }
-
 /*-------------------------------*/
+
 
 

@@ -4,7 +4,7 @@
             <a href="{$_layoutParams.root}"><img src="{$_layoutParams.route_img}\logo\logoJ.png" width="52px" height="52px">
             </a>
         </div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        <button class="navbar-toggler shadow-none btn btn-outline" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
             aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>

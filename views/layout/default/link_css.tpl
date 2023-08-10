@@ -6,7 +6,7 @@
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700"
     rel="stylesheet">
 
-<!--CSS ONLY-->
+<!--CUSTOM CSS-->
 <link rel="stylesheet" href="{$_layoutParams.route_css}style.css">
 
 <!-- Bootstrap -->

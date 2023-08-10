@@ -1,12 +1,12 @@
 {
-    "name": "segundogaldames/axiomaframe",
-    "description": "Micro framework para crear app",
+    "name": "jaimecatalan/jaimecatalan",
+    "description": "Portafolio",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Segundo Galdames",
-            "email": "segundogaldames@gmail.com"
+            "name": "Jaime Catalán",
+            "email": "jaime.catalan@pm.me"
         }
     ],
     "require": {
