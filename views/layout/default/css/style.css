@@ -13,7 +13,9 @@ font-family: 'Inter', sans-serif;
 */
 font-family: 'Inter', sans-serif;
 box-sizing: border-box;
+
 }
+
 /*------Navbar--------------*/
 .navbar-expand-lg .navbar-nav{
     flex-direction: column;
@@ -74,7 +76,7 @@ body{
     padding: 3rem 3rem;
 }
 
-#content h1{
+#content h1, body > main > section.section-skills.text-center > div > .card h2{
     font-weight: 800;
     font-size: 3rem;
     font-family: 'Exo 2', sans-serif;
@@ -142,20 +144,39 @@ body{
     align-items: center;
     display: flex;
     margin-top: -8em;
+    
+   
 }
 
 .container-estrecho{
     width: 96%;
+    
+    
 }
 
 body > main > section.section-skills.text-center > div > .card{
     width: 100%; 
     border-radius: 18px;
-    border: none;
     
+    border: none;
 }
 
-
+body > main > section.section-skills.text-center > div > .card h3{
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 800;
+}
+body > main > section.section-skills.text-center > div > div > div > div > div > div > img{
+    width: auto;
+    padding: 1em;
+}
+.title{
+    
+        font-weight: 800;
+        font-size: 3rem;
+        font-family: 'Exo 2', sans-serif;
+        margin: 3rem;
+    
+}
 
 /*-----------------------------------*/
 
