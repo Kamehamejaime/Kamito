@@ -37,13 +37,18 @@
                 <!--Grid column-->
                 <div class="col-lg-3 col-md-8 mb-4 mb-md-0">
                     <!-- Section: Text -->
-                    <section class="mb-4">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-                            repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
-                            eum harum corrupti dicta, aliquam sequi voluptate quas.
-                        </p>
-                    </section>
+                    <div class="clearfix">
+                    <img src="{$_layoutParams.route_img}\logo\logoJ.png" class="col-md-6 float-md-start mb-3 ms-md-3" alt="logo-pagina-web" style="width: 104px;">
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+                    repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+                    eum harum corrupti dicta, aliquam sequi voluptate quas.
+                </p>
+                  </div>
+
+
+
+                    
                     <!-- FIN Section: Text -->
                 </div>
 

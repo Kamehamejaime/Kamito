@@ -26,7 +26,7 @@
 
 <section class="section-skills text-center">
     <div class="container-estrecho row">
-        <div class="card" ">
+        <div class="card">
             <div class=" card-body">
             <h2 class="card-title">Skills</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -123,10 +123,11 @@
 </section>
 
 
-<section class="section estudios">
+<section class="section estudios text-center">
     <div class="containerS col-sm-9 mx-auto text-center">
         <h2 class="title">Estudios</h2>
     </div>
+    <div class=""></div>
 </section>
 
 
